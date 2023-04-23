@@ -1,0 +1,24 @@
+repositories:
+  default:
+    branches:
+      main:
+        enforce_admins: true
+        required_status_checks:
+          require_review: false
+    features:
+      has_issues: true
+      has_wiki: false
+      has_projects: false
+      has_downloads: false
+    merges:
+      allow_squash_merge: false
+      allow_merge_commit: false
+      allow_rebase_merge: true
+  .github:
+    extends: default
+    features:
+      has_issues: false
+  basketry:
+    extends: default
+    features:
+      has_wiki: true
