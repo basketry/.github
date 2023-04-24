@@ -3,6 +3,8 @@ name: security
 on:
   workflow_dispatch:
 
+permissions: write-all
+
 jobs:
   branch-protection:
     runs-on: ubuntu-latest
