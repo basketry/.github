@@ -1,4 +1,4 @@
-name: version
+name: security
 
 on:
   workflow_dispatch:
@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: gh api -X PUT https://api.github.com/repos/basketry/.github/branches/main/protection --input branch.json
-        with:
+        env:
           GITHUB_TOKEN: ${{ github.token }}
