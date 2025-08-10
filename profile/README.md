@@ -1,11 +1,7 @@
-# Welcome to Basketry! 🧺
+![Basketry](https://github.com/user-attachments/assets/1332b7ad-1ff3-4c23-9789-acd87e91a0f0)
 
-Basketry is the pluggable, service-oriented code-generation pipeline for any language.
+## Get Involved
 
-### Check out these links to get aquainted:
-
-#### [✨ Introduction to Basketry](https://github.com/basketry/basketry/wiki/Introducing-Basketry)
-
-#### [🏎️ Getting started guide](https://github.com/basketry/basketry/wiki/Getting-started-with-Basketry)
-
-#### [🧠 Basketry Wiki](https://github.com/basketry/basketry/wiki)
+* [Get started with Basketry in 5 Minutes](https://basketry.io/docs/category/tutorial---basics)
+* [Find Basketry Components](https://basketry.io/docs/components/intro)
+* [Read the Specification](https://basketry.io/docs/specification/v0.2)
